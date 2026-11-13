@@ -1,0 +1,5 @@
+SYNTHETIC FIXTURE — no deployed service was assessed.
+This text exists to demonstrate local artifact digest validation.
+Its declared passing result is an example input, not independent proof.
+System version: example-v1
+Requirement: R-01

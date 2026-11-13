@@ -48,3 +48,4 @@ State what is unknown, what the evidence cannot establish, and who must decide.
 ## Approval and review triggers
 
 Record actual approval when available. List changes that would invalidate assumptions or require reconsideration.
+

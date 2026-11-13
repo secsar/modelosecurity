@@ -53,3 +53,4 @@ Record unresolved conditions and changes that would trigger another review. Keep
 ## Review completion
 
 A review is ready for decision when scope, requirements, alternatives, responsible owners, validation criteria, and unresolved limitations are visible. Completion of the review does not by itself establish that a system is secure.
+

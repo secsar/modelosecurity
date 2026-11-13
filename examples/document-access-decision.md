@@ -57,3 +57,4 @@ These are illustrative responsibilities, not assigned people.
 No code, deployment, test result, or measured performance is included. Capacity targets and concurrency enforcement remain unspecified.
 
 Revisit this decision when introducing offline access, sharing links, cross-tenant collaboration, authorization caches, or asynchronous exports.
+

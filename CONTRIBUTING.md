@@ -17,3 +17,8 @@ This repository contains public guidance and decision resources. Detailed policy
 - Avoid unsupported promotional claims.
 
 A pull request should describe the change, its purpose, and checks performed. Public issues are for documentation feedback; do not include confidential security findings or sensitive records.
+
+
+## Tooling changes
+
+Run `python -m unittest discover -s tests -v`. Include negative cases for malformed inputs and misleading evidence states. The synthetic package must remain clearly labeled, and tool results must not be described as security certification or production approval.

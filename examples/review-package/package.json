@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "title": "Document service \u2014 synthetic review package",
+  "system_version": "example-v1",
+  "requirements": [
+    {
+      "id": "R-01",
+      "statement": "Each read enforces tenant membership and object ownership.",
+      "required": true
+    },
+    {
+      "id": "R-02",
+      "statement": "New read decisions observe committed revocation.",
+      "required": true
+    },
+    {
+      "id": "R-03",
+      "statement": "Publication binds approval to an immutable content version.",
+      "required": true
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D-01",
+      "summary": "Authorize every content release.",
+      "owner": "Illustrative application role",
+      "status": "implemented",
+      "requirement_ids": [
+        "R-01",
+        "R-02"
+      ]
+    },
+    {
+      "id": "D-02",
+      "summary": "Bind publication to the exact version.",
+      "owner": "Illustrative platform role",
+      "status": "proposed",
+      "requirement_ids": [
+        "R-03"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-01",
+      "requirement_id": "R-01",
+      "decision_id": "D-01",
+      "status": "collected",
+      "result": "pass",
+      "system_version": "example-v1",
+      "artifact": "evidence/synthetic-observation.txt",
+      "sha256": "1e24df294dcbf09431dd4f5316047598698779d03274afa39886d48f23fb31cd"
+    },
+    {
+      "id": "E-02",
+      "requirement_id": "R-02",
+      "decision_id": "D-01",
+      "status": "planned",
+      "result": "not_run",
+      "system_version": "example-v1"
+    },
+    {
+      "id": "E-03",
+      "requirement_id": "R-03",
+      "decision_id": "D-02",
+      "status": "planned",
+      "result": "not_run",
+      "system_version": "example-v1"
+    }
+  ]
+}

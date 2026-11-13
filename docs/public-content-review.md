@@ -29,3 +29,4 @@ Review the exact files being published, including metadata, links, images, examp
 7. Confirm that the final published version matches the reviewed content.
 
 Removing sensitive text in a later commit does not remove it from earlier history. If a secret is exposed, revoke or rotate it and address the publication separately. Avoid committing it in the first place.
+
